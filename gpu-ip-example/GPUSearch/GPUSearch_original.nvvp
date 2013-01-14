@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<session version="1" name="GPUSearch_original.nvvp" hscale="2.892247679406386E-6">
+<executable file="/home/mosinski/cuda-workspace/GPUSearch/Release/GPUSearch" cwd="/home/mosinski/cuda-workspace/GPUSearch" args="" launchConfiguration="GPUSearch" timeout="0" profileonstart="true" concurrentkernels="true"><envs></envs></executable>
+<expert><device name="GeForce GTX 680"><enabledevents><event domain="312" id="2601"/><event domain="312" id="2602"/><event domain="312" id="2603"/><event domain="312" id="2604"/><event domain="312" id="2605"/><event domain="312" id="2606"/><event domain="312" id="2607"/><event domain="312" id="2608"/></enabledevents></device><columnprops><column kind="DURATION" width="128"/><column kind="START_TIME" width="101"/><column kind="BYTE_SIZE" width="164"/></columnprops>
+<columnorder><column kind="NAME"/><column kind="START_TIME"/><column kind="DURATION"/><column kind="AVG_DURATION"/><column kind="GRID_SIZE"/><column kind="BLOCK_SIZE"/><column kind="REGS_PER_THREAD"/><column kind="STAT_SHARED_MEM"/><column kind="DYNA_SHARED_MEM"/><column kind="AVG_DYNA_SHARED_MEM"/><column kind="EVENT" label="inst_issued2"/><column kind="EVENT" label="inst_issued1"/><column kind="METRIC" label="inst_replay_overhead"/><column kind="METRIC" label="shared_replay_overhead"/><column kind="METRIC" label="warp_execution_efficiency"/><column kind="METRIC" label="achieved_occupancy"/><column kind="METRIC" label="dram_write_throughput"/><column kind="METRIC" label="local_replay_overhead"/><column kind="METRIC" label="global_cache_replay_overhead"/><column kind="METRIC" label="dram_read_throughput"/><column kind="BYTE_SIZE"/><column kind="THROUGHPUT"/><column kind="EMPTY"/></columnorder>
+</expert>
+<analysis activescope="APPLICATION"><visitedstages><stage name="TIMELINE"/></visitedstages></analysis>
+<vruler width="200"/>
+<hruler>
+</hruler>
+<timelinestate>
+<timeline pathname="30207" kind="PROCESS" containerstate="OPEN_ALL" filtered="false"/>
+<timeline pathname="30207/-454912224" kind="THREAD" containerstate="OPEN_ALL" filtered="false"/>
+<timeline pathname="30207/-454912224/Runtime API" kind="RUNTIME" containerstate="OPEN_ALL" filtered="false"/>
+<timeline pathname="30207/-454912224/Driver API" kind="DRIVER" containerstate="OPEN_ALL" filtered="false"/>
+<timeline pathname="GeForce GTX 680" kind="DEVICE" containerstate="OPEN_ALL" filtered="false"/>
+<timeline pathname="GeForce GTX 680/1" kind="CONTEXT" containerstate="OPEN_ALL" filtered="false"/>
+<timeline pathname="GeForce GTX 680/1/MemCpy (HtoD)" kind="MEMCPY_HTOD" containerstate="OPEN_ALL" filtered="false"/>
+<timeline pathname="GeForce GTX 680/1/Compute" kind="KERNELS" containerstate="OPEN_ALL" filtered="false"/>
+<timeline pathname="GeForce GTX 680/1/Compute/searchByPair(void*, void*, void*)" kind="KERNEL" containerstate="OPEN_ALL" filtered="false"/>
+<timeline pathname="GeForce GTX 680/1/Streams" kind="STREAMS" containerstate="OPEN_ALL" filtered="false"/>
+<timeline pathname="GeForce GTX 680/1/Streams/1" kind="STREAM" containerstate="OPEN_ALL" filtered="false"/>
+</timelinestate>
+<pdm>
+H4sIAAAAAAAAAI3XX2xTVRwH8HPbDjrcXNEJRUUu899UnGXDUnTSDeY2J8kaZsLUyIbLtMaHLVuQaeJGeDCND2bxQYsSxShBQgwjapwxQhMTHby4KJH5YGzEP/ggLj7olJB6zv3d73p+P1tDk7Pfuf1++ru3956b9aqQUkGllKOro2uNHh2D7UMjA4Nux0O9bjwRC+i3VujR98j6xtHBXSMD6S3PpnY9NZJ6pqevp08HqkKPiB5jZ0wrpTIXqRZ2K+W++sOPjqKXce8YWxPytrN1IeYClqvVI9VA+ULrL0tsF7TcGuMeo3zy7IZK24VEv/7vKe/vSjBXIfrFtlOer9jE3BLRD3ns6GbmlloubI7/O8qnfuUubDkTZH+jfD6cZK5SuLkqylHhlgmXi1A+GeXuCstVm/PhUp7+nbsqy43r4V6kPLr6p2rbVVvOHMNsPeXT67i7UpznfDflw90fRG1XYzmz8vJPUJ75+gvmIsINn6X8YPsp5pYLl+miPPN8gbmrfBfyB16z/gW113N8goxZizONlE/FuaP17HjO7DvVTnlvlrug3U83bzlAeewP7kKWMxci+qd/gP9w592PC8FFh/z8Je6wnuGQS7dUuFmH7mhUuZ6lm67grlI45Ik27pYJ53ZSjirXs3ThbdxVCYdcOrMof/6reP7muylHletZurke7sx6Pm055Lkd3EVEP+TSmfVca13fdx+lHLXUev4/d7Xply/2m+yjHBWuVvRDPjbA3TV+DodcuhWiX/+TlKPCrdTzb0u4zqe5i4p+yKVbpfh9FBuiHBXuWtEPeXSUu+tEP+TSXS+c2uP/Z9zD3eoy7vxz3N0gjg+5dGtEv9lx//4d584V/cq5tcJN7/Pv833c1el5Wwl38AXubhT9kEt3k3CZFylHhbtZ7Bf58Evc3SL6IZfuVuF6X6YcFa6+jGt5hbvbhEMu3e2KXzfk9a9xd4dwyKVbJ/YbeYNyVLg7y7iFt7hr8LYacnDIpbtLz/fvP5WEyx+iHBUupud/B4v7LefWi+87c4RyVLjGMm7qPe6axPdFLt0GPU9ZLnucclS4u/W8roTb+yF3cbFf5NJtVHw9I09/zF1CnD/kC68HmNskz/OblKPC3SP2O/M25ahw94rvgXzqMHfN8jwfLu3u87aK6yp7lHJUuM163tR0Lind3mPcJeV5PlbatQiXfp9yVLjWy3RbhEt9RDkq3NYyLvEJd23CIZfufuHck5SjwrVfpusQLvwZ5ahwnWXc/OfcPSAccum6hJs77a+DQ/z58kE9//TEyVWL1/cI5ahw2/T8qzPfeM9k3p2R3e3/dLw0QdW8G1au/pt+eLm/pZT5/dui6BnXMzlVfEgIUVYoFCYKBVPpmQAvxz8mx9r2hmPUkPcT/MsTF7y6fSZeqYTb6e9m8TM5ysd2NHt242jzfz7Tr4dp6P1+dpJq54VWzxxfea5a2iprrkLWnL1igcd9G/C/678+OSUpORAAAA==</pdm>
+</session>
