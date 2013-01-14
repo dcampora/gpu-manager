@@ -1,0 +1,25 @@
+# To make it:
+We need an SLC5 machine to compile it at the moment. gcc43 is not present in SLC6 (gcc44+), so we need gcc46 as target.
+
+# In SLC5 machine
+mkdir <working_dir>
+cd <working_dir>
+export User_release_area=`pwd`
+export CMTCONFIG=x86_64-slc5-gcc46-opt
+source /sw/lib/LbLogin.sh
+
+setenvBrunel v42r3p2
+SetupProject Brunel v42r3p2 --build-env
+SetupProject Brunel v42r3p2
+
+getpack Det/VeloPixDet v1r10
+getpack Tf/PatPixel head
+make
+
+# To run it (SLC5 or SLC6)
+cd <working_dir>
+export User_release_area=`pwd`
+export CMTCONFIG=x86_64-slc5-gcc46-opt
+source /sw/lib/LbLogin.sh
+SetupProject Brunel v42r3p2
+gaudirun.py Brunel-Pixel.py
